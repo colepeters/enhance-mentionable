@@ -6,13 +6,6 @@ export default function ({ html, state: { store } }) {
 
   return html`
     <style>
-      ul {
-        width: 100%;
-        list-style: none;
-      }
-      ul li {
-        margin-bottom: 0.5rem;
-      }
       details {
         margin-top: 0.25rem;
       }
@@ -35,7 +28,7 @@ export default function ({ html, state: { store } }) {
       }
     </style>
 
-    <ul>
+    <ul class='pl0'>
   ${mentions.map(m => `
       <li>
         <a href="${m.source}">${`"${m.sourceTitle}"` || m.source}</a>

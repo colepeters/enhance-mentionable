@@ -21,31 +21,8 @@ export default function Head({ req }) {
         body {
           color: var(--dark);
         }
-        main {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          gap: 1rem;
-          max-width: 800px;
-          margin: 0 auto;
-          padding: 0 1rem;
-          height: 100vh;
-        }
-        h1 {
-          font-size: 2rem;
-          font-weight: 700;
-        }
-        h2 {
-          font-size: 1.5rem;
-          font-weight: 400;
-        }
-        a {
-          color: var(--primary-600);
-          text-decoration: underline;
-        }
       </style>
     </head>
-    <body class="font-serif">
+    <body class="font-sans">
   `
 }

@@ -27,13 +27,13 @@ export default function HCard({ html, state: { attrs } }) {
       }
     </style>
 
-    ${enableAuthor ? `<span class="p-author hidden">Taylor Beseda</span>` : ''}
+    ${enableAuthor ? `<span class="p-author hidden">Cole Peters</span>` : ''}
 
     <section class="h-card">
-      <img class="u-photo" src="https://github.com/tbeseda.png" alt="Taylor Beseda">
+      <img class="u-photo" src="https://github.com/colepeters.png" alt="Taylor Beseda">
       <aside>
-        <a class="p-name u-url" href="https://tbeseda.com">Taylor Beseda</a><br>
-        <a class="u-email" href="mailto:taylor@begin.com">taylor@begin.com</a>
+        <a class="p-name u-url" href="https://colepeters.com">Cole Peters</a><br>
+        <a class="u-email" href="mailto:cole@begin.com">cole@begin.com</a>
       </aside>
     </section>
   `
