@@ -1,7 +1,7 @@
 const WEBMENTION_ENDPOINT = 'https://making-2c4.begin.app/webmention'
 
 const sampleWebMention = {
-  source: 'https://my-app.begin.app/', // your app's content URL
+  source: 'https://nature-6o8.begin.app/', // your app's content URL
   target: 'https://making-2c4.begin.app/', // the article you mention
 }
 

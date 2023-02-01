@@ -2,7 +2,7 @@
 export default function ({ html, state: { store } }) {
   const { mentions } = store
 
-  if (!mentions || mentions.length < 1) return '<p style="text-align: center;">Awaiting mentions of this page...</p>'
+  if (!mentions || mentions.length < 1) return '<p class="font-mono text-1">Awaiting mentions of this page…</p>'
 
   return html`
     <style>
