@@ -18,3 +18,6 @@ webmentions
 
 @begin
 appID BM5M7K0M
+
+@aws
+runtime nodejs18.x
